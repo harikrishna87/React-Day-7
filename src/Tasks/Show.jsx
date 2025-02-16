@@ -8,7 +8,7 @@ class Show extends Component {
         }
     }
 
-    handleevent = () => {
+    handleevent = (event) => {
         this.setState({
             name: event.target.value
         })
